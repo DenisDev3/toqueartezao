@@ -151,7 +151,7 @@ body {
 
 .nav-cardapio .nav-link:hover {
     color: #fff;
-    background-color: #313131;
+    background-color: #d35400;
 }
 .social-links li {
     list-style: none;
@@ -192,7 +192,7 @@ body {
 }
 .textolimp:hover {
     color: black;
-    background-color: white;
+    background-color: #d35400;
 }
 footer {
     list-style: none;
