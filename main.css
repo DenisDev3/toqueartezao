@@ -124,7 +124,7 @@ body {
     text-shadow: 5px 5px 2px black;
 }
 .text-colored {
-    text-shadow: 5px 5px 2px black;
+    /* text-shadow: 5px 5px 2px black; */
     right: 50%;
     color: #ffffff;
     /* margin-right: 3.0em; */
