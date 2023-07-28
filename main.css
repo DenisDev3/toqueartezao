@@ -231,14 +231,14 @@ footer {
     hr {
         display: none;
     }*/
-    #lista2 {
+    /* #lista2 {
         width: 30%;
         /* overflow-x: auto; */
         /* position: relative; */
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
-    } 
+    }  */
     #painel {
         overflow-x: auto;
         position: relative;
