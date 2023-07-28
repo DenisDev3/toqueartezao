@@ -159,6 +159,7 @@ body {
 }
 
 #quem-somos {
+    flex: 0 0 auto;
     background-size: cover;
     background-image: url(./images/fundo.jpg);
     color: white;
@@ -218,7 +219,16 @@ footer {
 @media (max-width: 767px) {
     #lista22 .textolimp {
         font-size: 10px;
-        /* width: 70px; */
+        margin: 8px ;
+    }
+    #lista22 {
+        border-radius: 5px;
+        width: 50%;
+    }
+    #lista22 img {
+        max-height: 100px;
+        max-width: 200px;
+        border-radius: 4px;
     }
     body {
         overflow-x: auto;
