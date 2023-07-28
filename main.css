@@ -172,9 +172,10 @@ body {
     
 }
 .textolimp {
-    display: flex;
+    text-align: center;
+    align-items: center;
     position: sticky;
-    padding: 5px;
+    padding: 2px;
     margin-top: 0;
     margin: 2px;
     background-color: black;
@@ -213,21 +214,34 @@ footer {
     /* background-size: cover; */
     /* background-image: url(images/fundo2.jpg); */
 }
+#lista22 img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
 
 /* mobile: */
 
 @media (max-width: 767px) {
+    .textolimp {
+        border-radius: 5px;
+        margin-left: 8px;
+        margin-top: 20px;
+    }
     #lista22 .textolimp {
         font-size: 10px;
         margin: 8px ;
     }
     #lista22 {
         border-radius: 5px;
-        width: 50%;
+        /* width: 50%; */
     }
     #lista22 img {
-        max-height: 100px;
-        max-width: 200px;
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+        /* max-height: 50px; */
+        /* max-width: 200px; */
         border-radius: 4px;
     }
     body {
@@ -244,7 +258,7 @@ footer {
         justify-content: space-between;
     }
     #listimg {
-        align-items: center;
+        /* align-items: center; */
         /* box-shadow: inset 3px 3px 9px #000000; */
         text-align: center;
         border-radius: 5px;
@@ -252,7 +266,9 @@ footer {
         /* margin: 0px; */
         /* background-size: cover; */
         /* background-image: url(images/fundo2.jpg); */
-        width: 44%;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
     }
     .carousel-item img {
         height: 250px;
