@@ -5,7 +5,7 @@ body {
     /* background-image: url(images/fundo.jpeg); */
 }
 .navbar {
-    background-color: #c23616;
+    background-color: #d35400;
     font-weight: bolder;
     /* margin-top: 2; */
 }
@@ -197,11 +197,12 @@ body {
 footer {
     list-style: none;
     padding-top: 10px;
-    background-color: #000000;
+    background-color: #d35400;
     color: white;
 }
 
 #listimg {
+    align-items: center;
     /* padding: 0; */
     width: 24%;
     /* margin: 10px; */
@@ -225,20 +226,6 @@ footer {
     #lista1 {
         max-width: 120%;
     }
-    /* #lista22{
-        width: 30%;
-    }
-    hr {
-        display: none;
-    }*/
-    /* #lista2 {
-        width: 30%;
-        /* overflow-x: auto; */
-        /* position: relative; */
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }  */
     #painel {
         overflow-x: auto;
         position: relative;
